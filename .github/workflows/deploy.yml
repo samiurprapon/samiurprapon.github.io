@@ -36,4 +36,4 @@ jobs:
 
         CI=false npm run deploy
       env:
-        REACT_APP_GITHUB_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
+        REACT_APP_GITHUB_TOKEN: ${{secrets.WEBSITE_SECRET}}
