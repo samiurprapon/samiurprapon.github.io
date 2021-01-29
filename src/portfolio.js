@@ -119,7 +119,7 @@ const educationInfo = {
       schoolName: 'Rangpur Zilla School, Rangpur',
       logo: require('./assets/images/Logo_of_Rangpur_Zilla_School.png'),
       subHeader: 'Secondary School Certificate in Science',
-      duration: 'July 2014 - April 2016',
+      duration: 'January 2006 - February 2014',
       // desc: '',
       // descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
     },
