@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.87de27d1.chunk.css",
-    "main.js": "/static/js/main.1f203f64.chunk.js",
-    "main.js.map": "/static/js/main.1f203f64.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d5a6ed6e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d5a6ed6e.js.map",
-    "static/js/2.6ebaae20.chunk.js": "/static/js/2.6ebaae20.chunk.js",
-    "static/js/2.6ebaae20.chunk.js.map": "/static/js/2.6ebaae20.chunk.js.map",
+    "main.js": "/static/js/main.cf232a48.chunk.js",
+    "main.js.map": "/static/js/main.cf232a48.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6c5e3fa3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6c5e3fa3.js.map",
+    "static/js/2.fe4675c1.chunk.js": "/static/js/2.fe4675c1.chunk.js",
+    "static/js/2.fe4675c1.chunk.js.map": "/static/js/2.fe4675c1.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
-    "static/js/3.c5203209.chunk.js": "/static/js/3.c5203209.chunk.js",
-    "static/js/3.c5203209.chunk.js.map": "/static/js/3.c5203209.chunk.js.map",
+    "static/js/3.a10e16a8.chunk.js": "/static/js/3.a10e16a8.chunk.js",
+    "static/js/3.a10e16a8.chunk.js.map": "/static/js/3.a10e16a8.chunk.js.map",
     "static/css/4.19dfc3d0.chunk.css": "/static/css/4.19dfc3d0.chunk.css",
-    "static/js/4.18fa0374.chunk.js": "/static/js/4.18fa0374.chunk.js",
-    "static/js/4.18fa0374.chunk.js.map": "/static/js/4.18fa0374.chunk.js.map",
+    "static/js/4.47bfc582.chunk.js": "/static/js/4.47bfc582.chunk.js",
+    "static/js/4.47bfc582.chunk.js.map": "/static/js/4.47bfc582.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aa8c59082f46addc60ce1cf5a9d16bc0.js": "/precache-manifest.aa8c59082f46addc60ce1cf5a9d16bc0.js",
+    "precache-manifest.59150a6337a6e2862cfdda8b272495f0.js": "/precache-manifest.59150a6337a6e2862cfdda8b272495f0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/4.19dfc3d0.chunk.css.map": "/static/css/4.19dfc3d0.chunk.css.map",
     "static/css/main.87de27d1.chunk.css.map": "/static/css/main.87de27d1.chunk.css.map",
-    "static/js/2.6ebaae20.chunk.js.LICENSE.txt": "/static/js/2.6ebaae20.chunk.js.LICENSE.txt",
+    "static/js/2.fe4675c1.chunk.js.LICENSE.txt": "/static/js/2.fe4675c1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Logo_of_Carmichael_College,_Rangpur.png": "/static/media/Logo_of_Carmichael_College,_Rangpur.4e551bf6.png",
     "static/media/Logo_of_Rangpur_Zilla_School.png": "/static/media/Logo_of_Rangpur_Zilla_School.32691c57.png",
@@ -30,9 +30,9 @@
     "static/media/skill.svg": "/static/media/skill.34409398.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5a6ed6e.js",
-    "static/js/2.6ebaae20.chunk.js",
+    "static/js/runtime-main.6c5e3fa3.js",
+    "static/js/2.fe4675c1.chunk.js",
     "static/css/main.87de27d1.chunk.css",
-    "static/js/main.1f203f64.chunk.js"
+    "static/js/main.cf232a48.chunk.js"
   ]
 }
