@@ -46,12 +46,25 @@ export default function Profile() {
         setProfileFunction(result.data.user);
       })
       .catch(function (error) {
-        console.log(error);
-        setProfileFunction("Error");
-        console.log(
-          "Because of this Error Contact Section is Showed instead of Profile"
-        );
-        openSource.showGithubProfile = "false";
+        let result = {
+          "data": {
+              "user": {
+                  "name": "Samiur Prapon",
+                  "bio": "♦️ World is Diamond Shaped.",
+                  "isHireable": false,
+                  "avatarUrl": "https://avatars.githubusercontent.com/u/25266703?u=f5614b531668cbd808573f709329e5f105339879&v=4",
+                  "location": "Bangladesh"
+              }
+          }
+      }
+
+        // console.log(error);
+        setProfileFunction(result.data.user);
+
+        // console.log(
+        //   "Because of this Error Contact Section is Showed instead of Profile"
+        // );
+        openSource.showGithubProfile = "true";
       });
   }
 
