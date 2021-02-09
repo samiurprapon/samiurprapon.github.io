@@ -56,7 +56,7 @@ export default function Profile() {
                   "location": "Bangladesh"
               }
           }
-      }
+        }
 
         // console.log(error);
         setProfileFunction(result.data.user);
