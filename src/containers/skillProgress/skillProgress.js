@@ -29,7 +29,7 @@ export default function StackProgress() {
                 </div>
 
                 <div className="skills-image">
-                    { illustration.animated ? <DisplayLottie animationData={Build} /> : <img alt="Skills" src={require("../../assets/images/skill.svg")} /> }
+                    { illustration.animated ? <DisplayLottie animationData={Build} /> : null }
                 </div>
 
             </div>

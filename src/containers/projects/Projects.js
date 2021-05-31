@@ -23,13 +23,6 @@ export default function Projects() {
   function getRepoData() {
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
-      request: (operation) => {
-        operation.setContext({
-          headers: {
-            authorization: `Bearer ${openSource.githubConvertedToken}`,
-          },
-        });
-      },
     });
 
     client
@@ -136,8 +129,7 @@ export default function Projects() {
                       stargazers: {
                         totalCount: 1,
                       },
-                      url:
-                        "https://github.com/samiurprapon/Medical-Result-2019",
+                      url: "https://github.com/samiurprapon/Medical-Result-2019",
                       id: "MDEwOlJlcG9zaXRvcnkyMTcyNTcxMDE=",
                       diskUsage: 3,
                       primaryLanguage: {
@@ -155,8 +147,7 @@ export default function Projects() {
                       stargazers: {
                         totalCount: 0,
                       },
-                      url:
-                        "https://github.com/samiurprapon/JWT-Authenticaton-server",
+                      url: "https://github.com/samiurprapon/JWT-Authenticaton-server",
                       id: "MDEwOlJlcG9zaXRvcnkzMjE5NzEwODY=",
                       diskUsage: 53,
                       primaryLanguage: {

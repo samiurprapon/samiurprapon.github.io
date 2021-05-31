@@ -17,55 +17,26 @@ export default function Profile() {
   }
 
   function getProfileData() {
-    const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
-      request: (operation) => {
-        operation.setContext({
-          headers: {
-            authorization: `Bearer ${openSource.githubConvertedToken}`,
-          },
-        });
+    let result = {
+      data: {
+        user: {
+          name: "Samiur Prapon",
+          bio: "♦️ World is Diamond Shaped.",
+          isHireable: false,
+          avatarUrl:
+            "https://avatars.githubusercontent.com/u/25266703?u=f5614b531668cbd808573f709329e5f105339879&v=4",
+          location: "Bangladesh",
+        },
       },
-    });
+    };
 
-    client
-      .query({
-        query: gql`
-      {
-        user(login:"${openSource.githubUserName}") { 
-          name
-          bio
-          isHireable
-          avatarUrl
-          location
-        }
-    }
-      `,
-      })
-      .then((result) => {
-        setProfileFunction(result.data.user);
-      })
-      .catch(function (error) {
-        let result = {
-          "data": {
-              "user": {
-                  "name": "Samiur Prapon",
-                  "bio": "♦️ World is Diamond Shaped.",
-                  "isHireable": false,
-                  "avatarUrl": "https://avatars.githubusercontent.com/u/25266703?u=f5614b531668cbd808573f709329e5f105339879&v=4",
-                  "location": "Bangladesh"
-              }
-          }
-        }
+    // console.log(error);
+    setProfileFunction(result.data.user);
 
-        // console.log(error);
-        setProfileFunction(result.data.user);
-
-        // console.log(
-        //   "Because of this Error Contact Section is Showed instead of Profile"
-        // );
-        openSource.showGithubProfile = "true";
-      });
+    // console.log(
+    //   "Because of this Error Contact Section is Showed instead of Profile"
+    // );
+    openSource.showGithubProfile = "true";
   }
 
   useEffect(() => {
