@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.87de27d1.chunk.css",
+    "main.css": "/static/css/main.71b835ba.chunk.css",
     "main.js": "/static/js/main.d834b31e.chunk.js",
     "main.js.map": "/static/js/main.d834b31e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2f4e363c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2f4e363c.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c0f83c2d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c0f83c2d.js.map",
     "static/js/2.69622162.chunk.js": "/static/js/2.69622162.chunk.js",
     "static/js/2.69622162.chunk.js.map": "/static/js/2.69622162.chunk.js.map",
-    "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
+    "static/css/3.6a352120.chunk.css": "/static/css/3.6a352120.chunk.css",
     "static/js/3.8b67bf16.chunk.js": "/static/js/3.8b67bf16.chunk.js",
     "static/js/3.8b67bf16.chunk.js.map": "/static/js/3.8b67bf16.chunk.js.map",
-    "static/css/4.19dfc3d0.chunk.css": "/static/css/4.19dfc3d0.chunk.css",
+    "static/css/4.1923f3ad.chunk.css": "/static/css/4.1923f3ad.chunk.css",
     "static/js/4.08592d56.chunk.js": "/static/js/4.08592d56.chunk.js",
     "static/js/4.08592d56.chunk.js.map": "/static/js/4.08592d56.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0850995164414130021f1d59564d8e4e.js": "/precache-manifest.0850995164414130021f1d59564d8e4e.js",
+    "precache-manifest.3775974436dbfa15a07b641221b86d29.js": "/precache-manifest.3775974436dbfa15a07b641221b86d29.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
-    "static/css/4.19dfc3d0.chunk.css.map": "/static/css/4.19dfc3d0.chunk.css.map",
-    "static/css/main.87de27d1.chunk.css.map": "/static/css/main.87de27d1.chunk.css.map",
+    "static/css/3.6a352120.chunk.css.map": "/static/css/3.6a352120.chunk.css.map",
+    "static/css/4.1923f3ad.chunk.css.map": "/static/css/4.1923f3ad.chunk.css.map",
+    "static/css/main.71b835ba.chunk.css.map": "/static/css/main.71b835ba.chunk.css.map",
     "static/js/2.69622162.chunk.js.LICENSE.txt": "/static/js/2.69622162.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Logo_of_Carmichael_College,_Rangpur.png": "/static/media/Logo_of_Carmichael_College,_Rangpur.4e551bf6.png",
@@ -26,9 +26,9 @@
     "static/media/northsouthLogo.png": "/static/media/northsouthLogo.c6c6af01.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f4e363c.js",
+    "static/js/runtime-main.c0f83c2d.js",
     "static/js/2.69622162.chunk.js",
-    "static/css/main.87de27d1.chunk.css",
+    "static/css/main.71b835ba.chunk.css",
     "static/js/main.d834b31e.chunk.js"
   ]
 }
