@@ -84,39 +84,33 @@ const contactInfo = { .... }
 
 Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
 
-1. Create a file called .env in the root directory of your project, check the base file
+### 1. **Generate a Github Personal Access Token.**
 
-Note: Instead of creating a `.env` file, you can just run this command `cp env.example .env` inside the root directory
+Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) or simply go and generate from [here](https://github.com/settings/tokens).
 
-```bash
-- DeveloperFolio
-  - node_modules
-  - public
-  - src
-  - .env         <-- create it here
-  - env.example  <-- this is the base file
-  - .gitignore
-  - package-lock.json
-  - package.json
-```
+**`Make sure you don't select any scope just generate a simple token without any scope`**
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
+After that copy your generated token and then encode your token into base 64 using this [Website](http://www.utilities-online.info/base64/)
+
+`Copy your base64 converted token`
+
+### 2. **Change `/src/config.js`.**
+
+Go to your cloned repository and make the following changes in `/src/config.js`
 
 ```javascript
- // .env
-  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+const config = {
+  // Github Converted Token from -> https://www.utilities-online.info/base64
+  githubConvertedToken: "Your access token here",
+
+};
 ```
 
-Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
+3. That's it! 😃
 
-**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
 
-Note: Open Source Projects section only show pinned items of your Github.
-If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
-![ERROR](https://i.imgur.com/Hj6mu1K.png)
-
-#### Using Emojis
+### Using Emojis
 
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
