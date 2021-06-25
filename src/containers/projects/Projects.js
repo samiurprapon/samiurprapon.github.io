@@ -7,6 +7,8 @@ import { openSource, socialMediaLinks } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
 
+import config from "../../config";
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -23,13 +25,20 @@ export default function Projects() {
   function getRepoData() {
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
+      request: (operation) => {
+        operation.setContext({
+          headers: {
+            authorization: `Bearer ${atob(config.githubConvertedToken)}`,
+          },
+        });
+      },
     });
 
     client
       .query({
         query: gql`
         {
-        user(login: "${openSource.githubUserName}") {
+        user(login: "${config.githubUserName}") {
           pinnedItems(first: 6, types: [REPOSITORY]) {
             totalCount
             edges {

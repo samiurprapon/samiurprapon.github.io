@@ -24,7 +24,7 @@ export default function Greeting() {
         backSpeed: 1,
         backDelay: 1400,
         strings: [
-          "I love to interact with Machines from an Abstract level.🚀",
+          "I love to interact with Humans & Machines from an Abstract level.🚀",
         ],
       });
     }, []);
