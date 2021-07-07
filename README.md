@@ -11,12 +11,6 @@ node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
-### Docker Commands
-
-```
-1) BUILD IMAGE : docker build -t developerfolio:latest .
-2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
-```
 
 ## How To Use 
 
@@ -103,6 +97,8 @@ const config = {
   // Github Converted Token from -> https://www.utilities-online.info/base64
   githubConvertedToken: "Your access token here",
 
+  // Github UserName
+  githubUserName: "your github username",
 };
 ```
 
@@ -121,7 +117,7 @@ This section guides you to deploy your portfolio on Github pages.
 
 - Navigate to `package.json` and enter your domain name instead of `https://samiurprapon.github.io/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
 
-- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
+- Add `<your-username>.github.io` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
 
 - Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
 
