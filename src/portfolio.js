@@ -210,7 +210,7 @@ const achievementSection = {
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
-    'My Inbox is open for all. Discuss a project(execpt course releted project) or just want to say hi?',
+    'My Inbox is open for all. Discuss a project or just want to say hi?',
   // number: '+88-0170XXXXXX',
   emailAddress: 'samiur.prapon@gmail.com',
 };
